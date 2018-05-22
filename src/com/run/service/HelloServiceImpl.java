@@ -7,7 +7,7 @@ import javax.jws.WebService;
 
 import com.run.domain.User;
 
-@WebService(endpointInterface = "com.bless.ws.HelloService", serviceName = "HelloService",portName="HelloServicePort")  
+@WebService(endpointInterface = "com.run.service.HelloService", serviceName = "HelloService",portName="HelloServicePort")  
 public class HelloServiceImpl implements HelloService {  
   
     @Override  
